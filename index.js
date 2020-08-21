@@ -30,6 +30,6 @@ function gerarMensagem() {
         "#9C0"
     ];
     let randomColor = Math.floor(Math.random() * cores.length)
-    document.getElementById("title").style.color = cores[randomColor]
+    document.getElementById("divFrases").style.backgroundColor = cores[randomColor]
 
 }
