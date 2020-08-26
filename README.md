@@ -16,4 +16,4 @@ Você pode acessar o site clicando aqui: [github.io/Gerador-de-mensagens]( https
 ```
 
 ## Autor
-Alison Melo, para uma atividade do curso da Start Latam Recife!💻
+Alison Melo, para uma atividade do curso da Start Latam.
