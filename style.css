@@ -4,8 +4,11 @@
     padding: 0;
 }
 
-.container {
+body {
     background: rgb(0, 0, 0);
+}
+
+.container {
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -15,6 +18,7 @@
 }
 
 .div {
+    width: 400px;
     color: whitesmoke;
     border-radius: 10px;
     padding: 20px;
@@ -24,15 +28,9 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1rem;
     background: rgba(231, 231, 231, 0.315);
-    box-shadow: 0px 4px 5px rgba(255, 255, 255, 0.205);
-}
-
-@media (min-width: 550px) {
-    .div {
-        width: 500px;
-    }
+    box-shadow: 4px 4px 5px rgba(255, 255, 255, 0.205);
 }
 
 .name {
@@ -59,7 +57,6 @@
     margin-bottom: 20px;
     text-align: left;
     font-size: 3.5em;
-    /*  padding-left: 50px; */
 }
 
 .butao {
@@ -72,9 +69,16 @@
 
 .footer {
     color: white;
+    padding-bottom: 40px;
 }
 
 .footer a {
     color: violet;
     text-decoration: none;
+}
+
+@media (max-width: 550px) {
+    .div {
+        width: 300px;
+    }
 }
