@@ -1,7 +1,7 @@
 # Gerador-de-mensagens
 Um gerador simples de mensagem utilizando JavaScript e Arrays.
 
-![](img/app.png)
+![](app.png)
 
 ## Visualizar
 
